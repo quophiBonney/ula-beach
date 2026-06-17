@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Public Sans", sans-serif;
+}
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://www.thepolobeachclub.com/wp-content/uploads/2023/12/Likor-On-the-beach-Jonas-Bab-All-Rights-Reserved-2023_82.webp");
+  height: 85vh;
+  display: flex;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-wrapper {
+  padding: 20px;
+  text-align: center;
+}
+.main-header,
+.sub-header {
+  color: white;
+}
+.main-header {
+  font-weight: bolder;
+}
+.sub-header {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 768px) {
+  .hero {
+    padding: 10px;
+    height: 60vh;
+  }
+  .main-header {
+    font-size: 20px;
+  }
+}
