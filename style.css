@@ -44,7 +44,23 @@ button {
 .sub-header {
   font-size: 18px;
 }
-
+.cta-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.reservation-btn {
+  background: #064666;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+  width: 180px;
+}
+.reservation-btn a {
+  color: white;
+  text-decoration: none;
+}
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .hero {
     padding: 10px;
