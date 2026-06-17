@@ -69,4 +69,7 @@ button {
   .main-header {
     font-size: 20px;
   }
+  .reservation-btn {
+    width: 140px;
+  }
 }
