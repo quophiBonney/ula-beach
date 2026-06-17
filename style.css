@@ -61,6 +61,17 @@ button {
   color: white;
   text-decoration: none;
 }
+.welcome-container {
+  margin: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+.welcome-text {
+  line-height: 1.5;
+  font-size: 30px;
+}
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .hero {
     padding: 10px;
@@ -70,6 +81,12 @@ button {
     font-size: 20px;
   }
   .reservation-btn {
-    width: 120px;
+    width: 130px;
+  }
+  .welcome-container {
+    margin: 15px;
+  }
+  .welcome-text {
+    font-size: 20px;
   }
 }
