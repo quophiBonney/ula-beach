@@ -72,6 +72,28 @@ button {
   line-height: 1.5;
   font-size: 30px;
 }
+.ula {
+  color: rgb(117, 11, 11);
+  font-style: italic;
+}
+.resources {
+  margin: 80px;
+  display: flex;
+  gap: 20px;
+}
+.resources img {
+  width: 60px;
+}
+.beach-beds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+/* mobile phone */
 @media screen and (min-width: 300px) and (max-width: 768px) {
   .hero {
     padding: 10px;
@@ -89,5 +111,32 @@ button {
   .welcome-text {
     font-size: 18px;
     margin-bottom: 10px;
+  }
+  .mb-3 {
+    margin-bottom: 20px;
+  }
+  .resources {
+    margin: 20px;
+    flex-wrap: wrap;
+  }
+  .beach-beds {
+    width: 46%;
+  }
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1114px) {
+  .hero {
+    height: 40vh;
+  }
+  .main-header {
+    font-size: 25px;
+  }
+  .resources {
+    /* margin: 20px; */
+    flex-wrap: wrap;
+  }
+  .beach-beds {
+    width: 46%;
   }
 }
